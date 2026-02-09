@@ -12,8 +12,6 @@ import lombok.Data;
 @Data
 @Entity
 public class DirectorEntity extends BaseEntity {
-  @Id
-  public long id; 
 
   public String nombre;
   public String bibliografia;

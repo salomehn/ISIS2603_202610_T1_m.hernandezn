@@ -6,15 +6,12 @@ import java.util.List;
 import org.hsqldb.lib.RCData;
 
 import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import jakarta.persistence.ManyToMany;
 import lombok.Data;
 
 @Data
 @Entity
 public class ActorEntity extends BaseEntity {
-    @Id
-    public long id; 
 
     public String nombre;
     public String nacionalidad;

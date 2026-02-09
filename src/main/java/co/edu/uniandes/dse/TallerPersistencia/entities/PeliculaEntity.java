@@ -11,8 +11,6 @@ import lombok.Data;
 @Data
 @Entity
 public class PeliculaEntity extends BaseEntity {
-    @Id
-    public long id;
     
     public String titulo;
     public Integer anioLanzamiento;
