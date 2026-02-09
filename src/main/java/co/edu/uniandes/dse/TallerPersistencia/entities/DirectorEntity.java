@@ -1,6 +1,7 @@
 package co.edu.uniandes.dse.TallerPersistencia.entities;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
